@@ -5,7 +5,6 @@ public class Offseason extends Onseason
 	public void discount(int total)
 	{
 		super.discount(5000);
-		System.out.println("Offseason discount");
 		totalamount=dis*total;
 		System.out.println("Offseason Discount:"+totalamount);
 	}
